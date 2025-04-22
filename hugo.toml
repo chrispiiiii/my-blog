@@ -1,0 +1,29 @@
+baseURL = "http://example.org/"
+languageCode = "zh-tw"
+title = "🐤鴨脆無聲的生活筆記✨"
+theme = "PaperMod"
+enableEmoji = true
+
+[params]
+  ShowReadingTime = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  defaultTheme = "auto"
+
+[menu]
+
+  [[menu.main]]
+    name = "🏠 首頁"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "📝 筆記"
+    url = "/posts"
+    weight = 2
+
+  [[menu.main]]
+    name = "📖 關於我"
+    url = "/about"
+    weight = 3
